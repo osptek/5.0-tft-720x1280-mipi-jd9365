@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 5.0″ TFT 720×1280（JD9365 · MIPI）</h1>
 
-<p align="center"><b>触摸 TFT 模组 · MIPI DSI · JD9365</b></p>
+<p align="center"><b>TFT 模组 · MIPI · JD9365 · 多版本索引</b></p>
 
 <p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
 
@@ -15,78 +15,54 @@
 
 ## 目录
 
-- [产品简介](#产品简介)
-- [规格参数](#规格参数)
-- [示例工程](#示例工程)
-- [仓库结构](#仓库结构)
-- [相关资料](#相关资料)
+- [说明](#说明)
+- [版本一览](#版本一览)
+- [YDP500BT004-V1](#ydp500bt004-v1)
+- [如何切换分支](#如何切换分支)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 产品简介
+## 说明
 
-OSPTEK **5.0 寸 720×1280 TFT** 是一款 **MIPI DSI** 接口彩色显示模组，显示驱动为 **JD9365**，触摸驱动为 **CHSC5432**。适合竖屏 HMI、手持终端与中尺寸交互面板等场景。
+本仓库收录 **5.0 寸 720×1280 TFT（MIPI · JD9365）** 显示模组资料。
+
+**`main` 为导航页**（仓库默认分支）。下表可快速浏览各版本；点击「说明」跳转到本页下方的详细介绍。需要某一版本的完整内容时，请切换到对应**版本分支**（方法见下文）。
 
 规格标识（仓库名）：`5.0-tft-720x1280-mipi-jd9365`
 
-当前模组版本：**YDP500BT004-V1**。电气与外形细节以 [`docs/YDP500BT004-V1.pdf`](./docs/YDP500BT004-V1.pdf) 为准。
+---
 
-## 规格参数
+## 版本一览
 
-| 项目 | 规格 |
-| ---- | ---- |
-| 尺寸 | 5.0 英寸 |
-| 类型 | TFT / IPS（彩色） |
-| 分辨率 | 720×1280 |
-| 接口 | MIPI DSI |
-| 驱动 IC | JD9365 |
-| 触摸驱动 | CHSC5432 |
+| 版本 | 宣传图 | 说明 |
+| ---- | ------ | ---- |
+| YDP500BT004-V1 | — | [查看详情](#ydp500bt004-v1) |
 
-> 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
+---
 
-## 示例工程
+## YDP500BT004-V1
 
-| 说明 | 路径 |
-| ---- | ---- |
-| ESP32-P4 · JD9365 MIPI + esp-lvgl-port / LVGL9（触摸 CHSC5432） | [`examples/esp32p4-idf5_jd9365-mipi_esp-lvgl-port_lvgl9/`](./examples/esp32p4-idf5_jd9365-mipi_esp-lvgl-port_lvgl9/) |
+**说明：** 模组。
 
-## 仓库结构
+---
 
-```text
-5.0-tft-720x1280-mipi-jd9365/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README 用图
-├── docs/            # 规格书、驱动手册、初始化、转接板等
-└── examples/        # 示例工程
-```
+## 如何切换分支
 
-## 相关资料
+完整产品资料在各**版本分支**中；`main` 仅作导航。
 
-### 本产品资料
+- **网页：** 在仓库页左上角打开分支下拉框，选择与料号对应的版本分支即可。
+- **命令行：** 克隆本仓库后执行 `git checkout <版本分支名>`；若本地已有仓库，先 `git fetch` 再切换。
 
-| 资料 | 链接 |
-| ---- | ---- |
-| 产品规格书（YDP500BT004-V1） | [`docs/YDP500BT004-V1.pdf`](./docs/YDP500BT004-V1.pdf) |
-| 驱动 IC 用户手册（JD9365D） | [`docs/JD9365D_User_Guide_standard_V0.02_20171225.pdf`](./docs/JD9365D_User_Guide_standard_V0.02_20171225.pdf) |
-| 初始化序列（文本） | [`docs/JD9365D_BOE4.96_720x1280_MIPI4L_init.txt`](./docs/JD9365D_BOE4.96_720x1280_MIPI4L_init.txt) |
-| TFT050BT231 转接板原理图 V1.0 | [`docs/SCH_TFT050BT231转接板V1.0_2026-08-03.pdf`](./docs/SCH_TFT050BT231转接板V1.0_2026-08-03.pdf) |
-| 转接板引脚对照图 | [`docs/adapter-pinout-compare.png`](./docs/adapter-pinout-compare.png) |
-
-### 示例工程
-
-- [ESP32-P4 JD9365 MIPI + LVGL9](./examples/esp32p4-idf5_jd9365-mipi_esp-lvgl-port_lvgl9/)
+---
 
 ## 购买链接
 
 <p align="center">
   <a href="https://shop110742373.taobao.com/"><img alt="淘宝官方店铺" src="https://img.shields.io/badge/淘宝-官方店铺-FF6A00?style=for-the-badge" /></a>
   &nbsp;&nbsp;
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="速卖通官方店铺" src="https://img.shields.io/badge/速卖通-官方店铺-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
 </p>
 
 **国内（淘宝）**
@@ -96,6 +72,8 @@ OSPTEK **5.0 寸 720×1280 TFT** 是一款 **MIPI DSI** 接口彩色显示模组
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
+
+---
 
 ## 技术支持
 
