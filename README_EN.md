@@ -44,8 +44,7 @@ Repo id: `5.0-tft-720x1280-mipi-jd9365`
 
 ## YDP500BT004-V1
 
-**Notes:** Module.
-
+**Notes:** With touch (CHSC5432).
 ---
 
 ## How to Switch Branches
