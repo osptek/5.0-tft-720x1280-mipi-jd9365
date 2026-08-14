@@ -18,7 +18,6 @@
 - [About](#about)
 - [Versions](#versions)
 - [YDP500BT004-V1](#ydp500bt004-v1)
-- [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
@@ -28,7 +27,7 @@
 
 This repository holds materials for the **5.0″ 720×1280 TFT (MIPI · JD9365)** module family.
 
-**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
+The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
 Repo id: `5.0-tft-720x1280-mipi-jd9365`
 
@@ -36,9 +35,9 @@ Repo id: `5.0-tft-720x1280-mipi-jd9365`
 
 ## Versions
 
-| Version | Image | Notes |
-| ------- | ----- | ----- |
-| YDP500BT004-V1 | — | [Details](#ydp500bt004-v1) |
+| Version | Image | Summary | Full docs |
+| ------- | ----- | ------- | --------- |
+| YDP500BT004-V1 | — | [Summary](#ydp500bt004-v1) | [Full docs](./versions/YDP500BT004-V1/) |
 
 ---
 
@@ -46,14 +45,7 @@ Repo id: `5.0-tft-720x1280-mipi-jd9365`
 
 **Notes:** With touch (CHSC5432).
 
----
-
-## How to Switch Branches
-
-Full product materials are on each **version branch**; `main` is navigation only.
-
-- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
-- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
+Full product page, datasheets, and examples: [versions/YDP500BT004-V1/](./versions/YDP500BT004-V1/)
 
 ---
 
